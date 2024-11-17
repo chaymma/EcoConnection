@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoConnect</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>EcoConnect</h1>
+        <p>Connecter les habitants avec les services de gestion des déchets</p>
+    </header>
+    
+    <main>
+        <section id="notifications">
+            <h2>Notifications</h2>
+            <ul id="notificationList">
+                <li>Jour de collecte : Lundi 8h</li>
+                <li>Rappel : Trier vos déchets organiques</li>
+            </ul>
+        </section>
+        
+        <section id="map">
+            <h2>Carte Interactive</h2>
+            <p>Localisez les points de recyclage autour de vous.</p>
+            <div id="mapPlaceholder">Carte ici (Intégration Google Maps possible)</div>
+        </section>
+        
+        <section id="rewards">
+            <h2>Système de Récompenses</h2>
+            <p>Vos points : <span id="points">100</span></p>
+            <button onclick="redeemPoints()">Échanger des points</button>
+        </section>
+    </main>
+    
+    <footer>
+        <p>© 2024 EcoConnect. Tous droits réservés.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
